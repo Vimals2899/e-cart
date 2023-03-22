@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CART</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="navbar-brand">CART</a>
+
+          <div class="cart">
+            <button type="button" id="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="cart-count-info"></span>
+            </button>
+
+            <div class="cart-container">
+              <div class="cart-list"></div>
+
+              <div class="cart-total">
+                <h3>Total: $</h3>
+                <span id="cart-total-value"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="banner">
+          <div class="banner-content">
+            <h1>Order for best product</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              eveniet, quis nisi recusandae assumenda ea sequi obcaecati
+              accusantium in provident dolore debitis autem neque vel commodi
+              atque voluptates incidunt aliquam delectus veritatis?
+              Exercitationem, fugit sed!
+            </p>
+            <div class="btns">
+              <button type="button" class="btn">know more</button>
+              <button type="button" class="btn">more info</button>
+            </div>
+          </div>
+
+          <div class="banner-img">
+            <img src="./Images/tv.png" alt="furniture banner image" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="product-list">
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Fjallraven - Fits 15 Laptops</h3>
+              <span class="product-category">men's clothing</span>
+              <p class="product-price">$109.95</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Mens Casual Slim Fit T-Shirts</h3>
+              <span class="product-category">men's clothing</span>
+              <p class="product-price">$22.3</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Mens Cotton Jacket</h3>
+              <span class="product-category">men's clothing</span>
+              <p class="product-price">$55.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Mens Casual Slim Fit</h3>
+              <span class="product-category">men's clothing</span>
+              <p class="product-price">$15.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Silver Dragon Chain Bracelet</h3>
+              <span class="product-category">jewelery</span>
+              <p class="product-price">$695</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Solid Gold Petite Micropave</h3>
+              <span class="product-category">jewelery</span>
+              <p class="product-price">$168</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">White Gold Plated Princess</h3>
+              <span class="product-category">jewelery</span>
+              <p class="product-price">$9.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Pierced Owl Rose Gold</h3>
+              <span class="product-category">jewelery</span>
+              <p class="product-price">$10.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">WD 2TB External Hard Drive - USB 3.0</h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$64</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">SanDisk Internal SSD - SATA 6 Gb/s</h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$109</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Silicon Power 256GB SSD 2.5</h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$109</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">WD 4TB Gaming External Hard Drive</h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$114</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">
+                Acer SB220Q bi 21.5 inches IPS Ultra-Thin
+              </h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$599</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">
+                Samsung 49-Inch Curved Gaming Monitor
+              </h3>
+              <span class="product-category">electronics</span>
+              <p class="product-price">$999.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">BIYLACLESEN Women's Jacket Winter</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$56.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Lock and Love Women's Biker Jacket</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$29.95</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Rain Jacket Women Raincoats</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$39.99</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">MBJ Women's Solid Neck V</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$9.85</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">Opna Women's Moisture</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$7.95</p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-img">
+              <img
+                src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+                alt="product image"
+              />
+              <button type="button" class="add-to-cart-btn">
+                <i class="fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class="product-content">
+              <h3 class="product-name">DANVOUY Womens T Shirt Short</h3>
+              <span class="product-category">women's clothing</span>
+              <p class="product-price">$12.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-list"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-banner">
+        <div class="container">
+          <h2>Unlimited offer Order Now</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est
+            quod maxime nisi possimus corporis qui aliquid molestias sit iusto
+            itaque, cum delectus tempore, distinctio velit. Repellat reiciendis
+            suscipit quidem aliquid ipsam, nemo minus repudiandae quas eligendi
+            natus voluptate nostrum?
+          </p>
+          <button type="button" class="btn">View More</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-pinterest"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
